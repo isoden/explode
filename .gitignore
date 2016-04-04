@@ -89,3 +89,4 @@ $RECYCLE.BIN/
 
 lib/*.js
 lib/*.map
+lib/*.d.ts
