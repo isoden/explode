@@ -8,6 +8,15 @@
 $ npm install isoden/explode --save
 ```
 
+## Usage
+
+```js
+import explode from '@isoden/explode';
+
+explode('We 💓 TypeScript!');
+  // => ['W', 'e', ' ', '💓', ' ', 'T', 'y', 'p', 'e', 'S', 'c', 'r', 'i', 'p', 't', '!']
+```
+
 ## License
 
 Under The MIT License.
