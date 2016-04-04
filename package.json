@@ -15,5 +15,16 @@
   "devDependencies": {
     "mocha": "^2.4.5",
     "typescript": "^1.8.9"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoden/explode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isoden/explode/issues"
+  },
+  "homepage": "https://github.com/isoden/explode#readme"
 }
