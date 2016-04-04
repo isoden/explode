@@ -1,0 +1,19 @@
+{
+  "name": "@isoden/explode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/explode.js"
+  },
+  "keywords": [],
+  "author": "isoden <isoda@maboroshi.biz> (http://isoden.me)",
+  "license": "MIT",
+  "dependencies": {
+    "punycode": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "typescript": "^1.8.9"
+  }
+}
