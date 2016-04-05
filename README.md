@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ npm install isoden/explode --save
+$ npm install @isoden/explode --save
 ```
 
 ## Usage
@@ -15,6 +15,16 @@ import explode from '@isoden/explode';
 
 explode('We 💓 TypeScript!');
   // => ['W', 'e', ' ', '💓', ' ', 'T', 'y', 'p', 'e', 'S', 'c', 'r', 'i', 'p', 't', '!']
+```
+
+## What's the difference between String.prototype.split('') ?
+
+```js
+explode('We 💓 TypeScript!');
+  // => ['W', 'e', ' ', '💓', ' ', 'T', 'y', 'p', 'e', 'S', 'c', 'r', 'i', 'p', 't', '!']
+
+'We 💓 TypeScript!'.split('');
+  // => ["W", "e", " ", "�", "�", " ", "T", "y", "p", "e", "S", "c", "r", "i", "p", "t", "!"]
 ```
 
 ## License
